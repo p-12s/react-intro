@@ -23,13 +23,11 @@ class MarkedList extends Component {
 */
 
 const MarkedList = () => (
-    <div className="MarkedList">
-        <ul className="MarkedList-list">
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third item</li>
-        </ul>
-    </div>
+    <ul className="MarkedList">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
 );
 
 export default MarkedList;
