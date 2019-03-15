@@ -1,19 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import MarkedList from './components/MarkedList';
-import FunctionalComponent from './components/FunctionalComponent';
-import MyInfo from './components/MyInfo';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
 ReactDOM.render(
     <React.Fragment>
-        <App/>
-        <MarkedList/>
-        <FunctionalComponent/>
-        <MyInfo/>
+        <Header/>
+        <MainContent/>
+        <Footer/>
     </React.Fragment>,
     document.getElementById('root'));
 
