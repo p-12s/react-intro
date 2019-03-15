@@ -4,7 +4,17 @@ import ReactDOM from "react-dom"
 function MainContent() {
     return (
         <main className="MainContent">
-            main
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
         </main>
     )
 }

@@ -2,18 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import App from "./App";
 
-//ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
-ReactDOM.render(
-    <React.Fragment>
-        <Header/>
-        <MainContent/>
-        <Footer/>
-    </React.Fragment>,
-    document.getElementById('root'));
+
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
