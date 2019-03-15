@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import MarkedList from './MarkedList';
-import FunctionalComponent from './FunctionalComponent';
-import MyInfo from './MyInfo';
+import MarkedList from './components/MarkedList';
+import FunctionalComponent from './components/FunctionalComponent';
+import MyInfo from './components/MyInfo';
 
 //ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
 ReactDOM.render(
