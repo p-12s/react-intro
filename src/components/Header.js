@@ -6,7 +6,6 @@ import DayChecker from './DayChecker';
 function Header() {
     return (
         <header className="navbar">
-            <div>This is the header</div>
             <DayChecker/>
         </header>
     )
