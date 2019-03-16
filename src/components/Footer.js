@@ -1,6 +1,6 @@
 import React from "react"
 import './Footer.css'
-import ContactCard from "./ContactCard"
+import ContactCard from "./Contacts/ContactCard"
 
 function Footer() {
     return (

@@ -1,13 +1,10 @@
 import React from "react"
-import TodoItem from "./TodoItem"
+import TodoItems from "./Todos/TodoItems"
 
 function MainContent() {
     return (
         <main className="todo-list">
-            <TodoItem/>
-            <TodoItem/>
-            <TodoItem/>
-            <TodoItem/>
+            <TodoItems/>
         </main>
     )
 }
