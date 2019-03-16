@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 
 function DayChecker() {
     const date = new Date()
@@ -24,10 +23,5 @@ function DayChecker() {
         <h1 style={styles}>Good {timeOfDay}!</h1>
     )
 }
-
-ReactDOM.render(
-    <DayChecker />,
-    document.getElementById("root")
-);
 
 export default DayChecker;

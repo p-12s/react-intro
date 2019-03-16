@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import './Header.css';
 import DayChecker from './DayChecker';
 
@@ -10,10 +9,5 @@ function Header() {
         </header>
     )
 }
-
-ReactDOM.render(
-    <Header />,
-    document.getElementById("root")
-);
 
 export default Header;
