@@ -1,10 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import './Header.css';
+import DayChecker from './DayChecker';
 
 function Header() {
     return (
-        <header className="navbar">This is the header</header>
+        <header className="navbar">
+            <div>This is the header</div>
+            <DayChecker/>
+        </header>
     )
 }
 
