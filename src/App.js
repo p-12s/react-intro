@@ -48,14 +48,56 @@ class App extends Component {
 }
 */
 
-const App = () => (
-    <React.Fragment>
-        <Header/>
-        <MainContent/>
-        <Footer/>
-        <Jokes/>
-        <Products/>
-    </React.Fragment>
-);
+class App extends React.Component {
+    constructor() {
+        super()
+        this.state = {}
+    }
+
+    // в версии React 16.3 УСТАРЕЛИ методы:
+    // componentWillMount()
+    // componentWillReceiveProps()
+    // componentWillUpdate()
+
+    componentDidMount() {
+    // загрузить данные, необходимые для корректного отображения компонента
+    }
+
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.whatever !== this.props.whatever) {
+        // сделать тут что-то важное
+        }
+    }
+
+    shouldComponentUpdate(nextProps, nextState) {
+    // вернуть true если компонент нуждается в обновлении
+    // вернуть false в противном случае
+    }
+
+    componentWillUnmount() {
+    // навести порядок после удаления компонента
+    // (например - убрать прослушиватели событий)
+    }
+
+    // в версии React 16.3 ПОЯВИЛИСЬ методы:
+    static getDerivedStateFromProps(props, state) {
+    }
+
+    getSnapshotBeforeUpdate() {
+    }
+
+
+    render() {
+        return (
+            <React.Fragment>
+                <Header/>
+                <MainContent/>
+                <Footer/>
+                <Jokes/>
+                <Products/>
+        </React.Fragment>
+        )
+    }
+}
 
 export default App;
