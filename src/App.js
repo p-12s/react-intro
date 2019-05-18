@@ -84,6 +84,7 @@ class App extends React.Component {
     }
 
     getSnapshotBeforeUpdate() {
+        // new comment in master!
     }
 
 
