@@ -87,6 +87,7 @@ class App extends React.Component {
         // my new comment in feature/N-1
         // my new comment 2 in feature/N-1
         // this is squoshed comments
+        // new comment in master!
     }
 
 
